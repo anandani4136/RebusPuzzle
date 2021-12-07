@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="rebusCSS.css">
+    <script src="rebusJS.js"></script>
+
+</head>
+<body>
+    <div id = "pict" class="grid" style = "background-image: url('resources/start.jpg'); background-repeat: no-repeat; background-size: 100%">
+        <button type="button" onclick="quest(this.id,100)" id = "b1">100</button>
+        <button type="button" onclick="quest(this.id,100)" id = "b2">100</button>
+        <button type="button" onclick="quest(this.id,100)" id = "b3">100</button>
+        <button type="button" onclick="quest(this.id,200)" id = "b4">200</button>
+        <button type="button" onclick="quest(this.id,200)" id = "b5">200</button>
+        <button type="button" onclick="quest(this.id,200)" id = "b6">200</button>
+        <button type="button" onclick="quest(this.id,300)" id = "b7">300</button>
+        <button type="button" onclick="quest(this.id,300)" id = "b8">300</button>
+        <button type="button" onclick="quest(this.id,300)" id = "b9">300</button>
+
+    </div>
+    <br>
+    <p id="score">TOTAL SCORE HERE</p>
+    <button type="button" onclick="start()">click me to start</button>
+    <p id = "word">word will appear here</p>
+    <p id = "points">points appear here</p>
+    <p id = "gold">gold displayed here</p>
+    <button type="button" onclick="hint()">hint</button>
+    <button type="button" onclick="resetAll()">reset</button>
+    <button type="button" onclick="guessPuzzle()">Click me to guess the puzzle</button>
+    <button type="button" onclick="twoX()">Click here for 2x score multiplier</button>
+    <p id = "board1">TOP USERS DISPLAYED HERE</p>
+
+
+
+</body>
+</html>

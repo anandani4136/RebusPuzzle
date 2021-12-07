@@ -1,0 +1,8 @@
+.grid {
+    height: 400px;
+    width: 600px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
